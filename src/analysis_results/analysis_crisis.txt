@@ -1,0 +1,58 @@
+================================================================================
+SIMPLE STRATEGIC LIQUIDITY GAME ANALYSIS
+Economic Scenario: crisis
+Base Suspicion Level: 0.9
+Network: 142 companies, 226 debt relationships
+================================================================================
+
+1. NETWORK STRUCTURE
+----------------------------------------
+Total cycles: 66
+Companies in cycles: 46
+Hub nodes (5+ cycles): 24
+Mega hub nodes (10+ cycles): 15
+Max cycle participation: 42
+
+2. SIMULATION WITHOUT BANK INTERVENTION
+----------------------------------------
+Total payments made: 442
+Total payments delayed: 22158
+Payment rate: 2.0%
+Total payment volume: $183,223,647.65
+Average final reputation: 0.863
+Average final suspicion: 0.954
+
+3. SIMULATION WITH BANK INTERVENTION
+----------------------------------------
+Total payments made: 12235
+Total payments delayed: 10365
+Payment rate: 54.1%
+Total payment volume: $5,011,190,359.87
+Cycles resolved: 6600
+Average final reputation: 0.949
+Average final suspicion: 0.715
+
+4. BANK INTERVENTION IMPACT
+----------------------------------------
+Payment increase: +2668.1%
+Volume increase: +2635.0%
+Suspicion reduction: +0.239
+Payment rate improvement: +52.2 percentage points
+
+5. KEY INSIGHTS
+----------------------------------------
+✓ Bank intervention successfully broke payment gridlock
+✓ Guaranteed cycle payments reduced overall suspicion
+✓ Lower suspicion led to more payments throughout network
+
+Scenario Impact (crisis):
+- High initial suspicion created severe payment gridlock
+- Bank intervention critical for maintaining payment flows
+
+Mechanism:
+1. High suspicion → companies delay payments (even with sufficient capital)
+2. Delays → increased suspicion → more delays (negative spiral)
+3. Bank guarantees cycle payments → breaks the spiral
+4. Successful payments → reduced suspicion → more voluntary payments
+
+================================================================================

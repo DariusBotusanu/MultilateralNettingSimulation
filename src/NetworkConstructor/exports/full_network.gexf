@@ -1,0 +1,2450 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-07-06">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="amount" type="double" />
+      <attribute id="3" title="relationship" type="string" />
+      <attribute id="4" title="description" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="sector" type="string" />
+      <attribute id="1" title="subsector" type="string" />
+    </attributes>
+    <nodes>
+      <node id="GlobalSteelCorp" label="GlobalSteelCorp">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="heavy_industry" />
+        </attvalues>
+      </node>
+      <node id="AluminiumWorks" label="AluminiumWorks">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="heavy_industry" />
+        </attvalues>
+      </node>
+      <node id="ChemicalGiant" label="ChemicalGiant">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="heavy_industry" />
+        </attvalues>
+      </node>
+      <node id="PetrochemIndustries" label="PetrochemIndustries">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="heavy_industry" />
+        </attvalues>
+      </node>
+      <node id="AutoManufacturing" label="AutoManufacturing">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="automotive" />
+        </attvalues>
+      </node>
+      <node id="EngineWorks" label="EngineWorks">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="automotive" />
+        </attvalues>
+      </node>
+      <node id="TireProduction" label="TireProduction">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="automotive" />
+        </attvalues>
+      </node>
+      <node id="AutoElectronics" label="AutoElectronics">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="automotive" />
+        </attvalues>
+      </node>
+      <node id="CarBodyworks" label="CarBodyworks">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="automotive" />
+        </attvalues>
+      </node>
+      <node id="AerospaceDefense" label="AerospaceDefense">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="aerospace" />
+        </attvalues>
+      </node>
+      <node id="AircraftParts" label="AircraftParts">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="aerospace" />
+        </attvalues>
+      </node>
+      <node id="SpaceComponents" label="SpaceComponents">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="aerospace" />
+        </attvalues>
+      </node>
+      <node id="AvionicsSystem" label="AvionicsSystem">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="aerospace" />
+        </attvalues>
+      </node>
+      <node id="IndustrialMachinery" label="IndustrialMachinery">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="machinery" />
+        </attvalues>
+      </node>
+      <node id="RoboticsInc" label="RoboticsInc">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="machinery" />
+        </attvalues>
+      </node>
+      <node id="ToolManufacturing" label="ToolManufacturing">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="machinery" />
+        </attvalues>
+      </node>
+      <node id="PrecisionEquipment" label="PrecisionEquipment">
+        <attvalues>
+          <attvalue for="0" value="manufacturing" />
+          <attvalue for="1" value="machinery" />
+        </attvalues>
+      </node>
+      <node id="MegaRetailChain" label="MegaRetailChain">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="mass_retail" />
+        </attvalues>
+      </node>
+      <node id="GlobalSupermarket" label="GlobalSupermarket">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="mass_retail" />
+        </attvalues>
+      </node>
+      <node id="DiscountStores" label="DiscountStores">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="mass_retail" />
+        </attvalues>
+      </node>
+      <node id="WarehouseClub" label="WarehouseClub">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="mass_retail" />
+        </attvalues>
+      </node>
+      <node id="LuxuryFashion" label="LuxuryFashion">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="specialty" />
+        </attvalues>
+      </node>
+      <node id="SportingGoods" label="SportingGoods">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="specialty" />
+        </attvalues>
+      </node>
+      <node id="ElectronicsRetail" label="ElectronicsRetail">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="specialty" />
+        </attvalues>
+      </node>
+      <node id="HomeImprovement" label="HomeImprovement">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="specialty" />
+        </attvalues>
+      </node>
+      <node id="OnlineMarketplace" label="OnlineMarketplace">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="ecommerce" />
+        </attvalues>
+      </node>
+      <node id="EcommercePlatform" label="EcommercePlatform">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="ecommerce" />
+        </attvalues>
+      </node>
+      <node id="DigitalRetail" label="DigitalRetail">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="ecommerce" />
+        </attvalues>
+      </node>
+      <node id="DirectConsumer" label="DirectConsumer">
+        <attvalues>
+          <attvalue for="0" value="retail" />
+          <attvalue for="1" value="ecommerce" />
+        </attvalues>
+      </node>
+      <node id="EnterpriseSoftware" label="EnterpriseSoftware">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="software" />
+        </attvalues>
+      </node>
+      <node id="CloudSolutions" label="CloudSolutions">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="software" />
+        </attvalues>
+      </node>
+      <node id="CybersecurityFirm" label="CybersecurityFirm">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="software" />
+        </attvalues>
+      </node>
+      <node id="DataAnalyticsCorp" label="DataAnalyticsCorp">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="software" />
+        </attvalues>
+      </node>
+      <node id="SemiconductorFab" label="SemiconductorFab">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="hardware" />
+        </attvalues>
+      </node>
+      <node id="ComputerManufacturing" label="ComputerManufacturing">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="hardware" />
+        </attvalues>
+      </node>
+      <node id="NetworkEquipment" label="NetworkEquipment">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="hardware" />
+        </attvalues>
+      </node>
+      <node id="MobileDevices" label="MobileDevices">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="hardware" />
+        </attvalues>
+      </node>
+      <node id="ArtificialIntelligence" label="ArtificialIntelligence">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="ai_ml" />
+        </attvalues>
+      </node>
+      <node id="MachineLearning" label="MachineLearning">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="ai_ml" />
+        </attvalues>
+      </node>
+      <node id="ComputerVision" label="ComputerVision">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="ai_ml" />
+        </attvalues>
+      </node>
+      <node id="NaturalLanguageAI" label="NaturalLanguageAI">
+        <attvalues>
+          <attvalue for="0" value="technology" />
+          <attvalue for="1" value="ai_ml" />
+        </attvalues>
+      </node>
+      <node id="GlobalBank" label="GlobalBank">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="banking" />
+        </attvalues>
+      </node>
+      <node id="RegionalBank" label="RegionalBank">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="banking" />
+        </attvalues>
+      </node>
+      <node id="InvestmentBank" label="InvestmentBank">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="banking" />
+        </attvalues>
+      </node>
+      <node id="CreditUnion" label="CreditUnion">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="banking" />
+        </attvalues>
+      </node>
+      <node id="LifeInsurance" label="LifeInsurance">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="insurance" />
+        </attvalues>
+      </node>
+      <node id="PropertyInsurance" label="PropertyInsurance">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="insurance" />
+        </attvalues>
+      </node>
+      <node id="HealthInsurance" label="HealthInsurance">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="insurance" />
+        </attvalues>
+      </node>
+      <node id="ReinsuranceCorp" label="ReinsuranceCorp">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="insurance" />
+        </attvalues>
+      </node>
+      <node id="HedgeFund" label="HedgeFund">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="PrivateEquity" label="PrivateEquity">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="VentureCapital" label="VentureCapital">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="AssetManagement" label="AssetManagement">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="PaymentProcessor" label="PaymentProcessor">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="fintech" />
+        </attvalues>
+      </node>
+      <node id="CryptoCurrency" label="CryptoCurrency">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="fintech" />
+        </attvalues>
+      </node>
+      <node id="LendingPlatform" label="LendingPlatform">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="fintech" />
+        </attvalues>
+      </node>
+      <node id="InsurTech" label="InsurTech">
+        <attvalues>
+          <attvalue for="0" value="financial" />
+          <attvalue for="1" value="fintech" />
+        </attvalues>
+      </node>
+      <node id="OilMajor" label="OilMajor">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="oil_gas" />
+        </attvalues>
+      </node>
+      <node id="NaturalGasDistributor" label="NaturalGasDistributor">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="oil_gas" />
+        </attvalues>
+      </node>
+      <node id="RefineryOperations" label="RefineryOperations">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="oil_gas" />
+        </attvalues>
+      </node>
+      <node id="PetroleumServices" label="PetroleumServices">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="oil_gas" />
+        </attvalues>
+      </node>
+      <node id="SolarEnergy" label="SolarEnergy">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="renewable" />
+        </attvalues>
+      </node>
+      <node id="WindPower" label="WindPower">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="renewable" />
+        </attvalues>
+      </node>
+      <node id="HydroElectric" label="HydroElectric">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="renewable" />
+        </attvalues>
+      </node>
+      <node id="GeothermalEnergy" label="GeothermalEnergy">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="renewable" />
+        </attvalues>
+      </node>
+      <node id="ElectricUtility" label="ElectricUtility">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="utilities" />
+        </attvalues>
+      </node>
+      <node id="WaterUtility" label="WaterUtility">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="utilities" />
+        </attvalues>
+      </node>
+      <node id="PowerGeneration" label="PowerGeneration">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="utilities" />
+        </attvalues>
+      </node>
+      <node id="EnergyTrading" label="EnergyTrading">
+        <attvalues>
+          <attvalue for="0" value="energy" />
+          <attvalue for="1" value="utilities" />
+        </attvalues>
+      </node>
+      <node id="PharmaceuticalGiant" label="PharmaceuticalGiant">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="pharma" />
+        </attvalues>
+      </node>
+      <node id="BiotechFirm" label="BiotechFirm">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="pharma" />
+        </attvalues>
+      </node>
+      <node id="GenericDrugs" label="GenericDrugs">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="pharma" />
+        </attvalues>
+      </node>
+      <node id="VaccineManufacturer" label="VaccineManufacturer">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="pharma" />
+        </attvalues>
+      </node>
+      <node id="MedicalEquipment" label="MedicalEquipment">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="medical_devices" />
+        </attvalues>
+      </node>
+      <node id="DiagnosticDevices" label="DiagnosticDevices">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="medical_devices" />
+        </attvalues>
+      </node>
+      <node id="SurgicalInstruments" label="SurgicalInstruments">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="medical_devices" />
+        </attvalues>
+      </node>
+      <node id="HealthTech" label="HealthTech">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="medical_devices" />
+        </attvalues>
+      </node>
+      <node id="HospitalChain" label="HospitalChain">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="services" />
+        </attvalues>
+      </node>
+      <node id="ClinicalLabs" label="ClinicalLabs">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="services" />
+        </attvalues>
+      </node>
+      <node id="HealthcareIT" label="HealthcareIT">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="services" />
+        </attvalues>
+      </node>
+      <node id="TelemedicineCorp" label="TelemedicineCorp">
+        <attvalues>
+          <attvalue for="0" value="healthcare" />
+          <attvalue for="1" value="services" />
+        </attvalues>
+      </node>
+      <node id="TelecomGiant" label="TelecomGiant">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="telecom" />
+        </attvalues>
+      </node>
+      <node id="WirelessCarrier" label="WirelessCarrier">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="telecom" />
+        </attvalues>
+      </node>
+      <node id="InternetProvider" label="InternetProvider">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="telecom" />
+        </attvalues>
+      </node>
+      <node id="SatelliteComm" label="SatelliteComm">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="telecom" />
+        </attvalues>
+      </node>
+      <node id="MediaConglomerate" label="MediaConglomerate">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="media" />
+        </attvalues>
+      </node>
+      <node id="StreamingService" label="StreamingService">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="media" />
+        </attvalues>
+      </node>
+      <node id="BroadcastNetwork" label="BroadcastNetwork">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="media" />
+        </attvalues>
+      </node>
+      <node id="ContentProduction" label="ContentProduction">
+        <attvalues>
+          <attvalue for="0" value="telecommunications" />
+          <attvalue for="1" value="media" />
+        </attvalues>
+      </node>
+      <node id="GlobalLogistics" label="GlobalLogistics">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="logistics" />
+        </attvalues>
+      </node>
+      <node id="FreightForwarder" label="FreightForwarder">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="logistics" />
+        </attvalues>
+      </node>
+      <node id="SupplyChainMgmt" label="SupplyChainMgmt">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="logistics" />
+        </attvalues>
+      </node>
+      <node id="LastMileDelivery" label="LastMileDelivery">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="logistics" />
+        </attvalues>
+      </node>
+      <node id="MajorAirline" label="MajorAirline">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="airlines" />
+        </attvalues>
+      </node>
+      <node id="CargoAirline" label="CargoAirline">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="airlines" />
+        </attvalues>
+      </node>
+      <node id="RegionalCarrier" label="RegionalCarrier">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="airlines" />
+        </attvalues>
+      </node>
+      <node id="AircraftLeasing" label="AircraftLeasing">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="airlines" />
+        </attvalues>
+      </node>
+      <node id="ContainerShipping" label="ContainerShipping">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="shipping" />
+        </attvalues>
+      </node>
+      <node id="BulkCarrier" label="BulkCarrier">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="shipping" />
+        </attvalues>
+      </node>
+      <node id="PortOperations" label="PortOperations">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="shipping" />
+        </attvalues>
+      </node>
+      <node id="MarineServices" label="MarineServices">
+        <attvalues>
+          <attvalue for="0" value="transportation" />
+          <attvalue for="1" value="shipping" />
+        </attvalues>
+      </node>
+      <node id="RealEstateDeveloper" label="RealEstateDeveloper">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="development" />
+        </attvalues>
+      </node>
+      <node id="CommercialBuilder" label="CommercialBuilder">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="development" />
+        </attvalues>
+      </node>
+      <node id="ResidentialBuilder" label="ResidentialBuilder">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="development" />
+        </attvalues>
+      </node>
+      <node id="InfrastructureFirm" label="InfrastructureFirm">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="development" />
+        </attvalues>
+      </node>
+      <node id="RealEstateInvestment" label="RealEstateInvestment">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="PropertyManagement" label="PropertyManagement">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="REITCorporation" label="REITCorporation">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="LandDevelopment" label="LandDevelopment">
+        <attvalues>
+          <attvalue for="0" value="real_estate" />
+          <attvalue for="1" value="investment" />
+        </attvalues>
+      </node>
+      <node id="AgricultureCorp" label="AgricultureCorp">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="farming" />
+        </attvalues>
+      </node>
+      <node id="LivestockRanch" label="LivestockRanch">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="farming" />
+        </attvalues>
+      </node>
+      <node id="CropProduction" label="CropProduction">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="farming" />
+        </attvalues>
+      </node>
+      <node id="OrganicFarms" label="OrganicFarms">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="farming" />
+        </attvalues>
+      </node>
+      <node id="FoodProcessing" label="FoodProcessing">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="food_processing" />
+        </attvalues>
+      </node>
+      <node id="BeverageCompany" label="BeverageCompany">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="food_processing" />
+        </attvalues>
+      </node>
+      <node id="MeatPacking" label="MeatPacking">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="food_processing" />
+        </attvalues>
+      </node>
+      <node id="DairyProcessing" label="DairyProcessing">
+        <attvalues>
+          <attvalue for="0" value="agriculture" />
+          <attvalue for="1" value="food_processing" />
+        </attvalues>
+      </node>
+      <node id="MiningCorporation" label="MiningCorporation">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="mining" />
+        </attvalues>
+      </node>
+      <node id="PreciousMetals" label="PreciousMetals">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="mining" />
+        </attvalues>
+      </node>
+      <node id="CoalMining" label="CoalMining">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="mining" />
+        </attvalues>
+      </node>
+      <node id="RareEarthElements" label="RareEarthElements">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="mining" />
+        </attvalues>
+      </node>
+      <node id="CementCompany" label="CementCompany">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="construction" />
+        </attvalues>
+      </node>
+      <node id="ConstructionMaterials" label="ConstructionMaterials">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="construction" />
+        </attvalues>
+      </node>
+      <node id="LumberMill" label="LumberMill">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="construction" />
+        </attvalues>
+      </node>
+      <node id="GlassManufacturing" label="GlassManufacturing">
+        <attvalues>
+          <attvalue for="0" value="materials" />
+          <attvalue for="1" value="construction" />
+        </attvalues>
+      </node>
+      <node id="ManagementConsulting" label="ManagementConsulting">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="consulting" />
+        </attvalues>
+      </node>
+      <node id="TechConsulting" label="TechConsulting">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="consulting" />
+        </attvalues>
+      </node>
+      <node id="FinancialAdvisory" label="FinancialAdvisory">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="consulting" />
+        </attvalues>
+      </node>
+      <node id="StrategyFirm" label="StrategyFirm">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="consulting" />
+        </attvalues>
+      </node>
+      <node id="LegalServices" label="LegalServices">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="professional" />
+        </attvalues>
+      </node>
+      <node id="AccountingFirm" label="AccountingFirm">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="professional" />
+        </attvalues>
+      </node>
+      <node id="ArchitecturalServices" label="ArchitecturalServices">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="professional" />
+        </attvalues>
+      </node>
+      <node id="EngineeringConsult" label="EngineeringConsult">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="professional" />
+        </attvalues>
+      </node>
+      <node id="BusinessProcessOutsourcing" label="BusinessProcessOutsourcing">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="outsourcing" />
+        </attvalues>
+      </node>
+      <node id="ITOutsourcing" label="ITOutsourcing">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="outsourcing" />
+        </attvalues>
+      </node>
+      <node id="CallCenter" label="CallCenter">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="outsourcing" />
+        </attvalues>
+      </node>
+      <node id="DataEntry" label="DataEntry">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="outsourcing" />
+        </attvalues>
+      </node>
+      <node id="CleanEnergy" label="CleanEnergy" />
+      <node id="SmallBusiness1" label="SmallBusiness1">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="small_business" />
+        </attvalues>
+      </node>
+      <node id="SmallBusiness2" label="SmallBusiness2">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="small_business" />
+        </attvalues>
+      </node>
+      <node id="SmallBusiness3" label="SmallBusiness3">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="small_business" />
+        </attvalues>
+      </node>
+      <node id="SmallBusiness4" label="SmallBusiness4">
+        <attvalues>
+          <attvalue for="0" value="services" />
+          <attvalue for="1" value="small_business" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="GlobalSteelCorp" target="ChemicalGiant" id="0">
+        <attvalues>
+          <attvalue for="2" value="108705.48975096413" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="ChemicalGiant materials" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalSteelCorp" target="PrecisionEquipment" id="1">
+        <attvalues>
+          <attvalue for="2" value="164657.77968337093" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="PrecisionEquipment materials" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalSteelCorp" target="CloudSolutions" id="2">
+        <attvalues>
+          <attvalue for="2" value="113333.6078623354" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalSteelCorp" target="MegaRetailChain" id="3">
+        <attvalues>
+          <attvalue for="2" value="399554.6682994535" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Steel products retail" />
+        </attvalues>
+      </edge>
+      <edge source="AluminiumWorks" target="ChemicalGiant" id="4">
+        <attvalues>
+          <attvalue for="2" value="173216.01169269145" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="ChemicalGiant materials" />
+        </attvalues>
+      </edge>
+      <edge source="AluminiumWorks" target="PrecisionEquipment" id="5">
+        <attvalues>
+          <attvalue for="2" value="72802.13497979936" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="PrecisionEquipment materials" />
+        </attvalues>
+      </edge>
+      <edge source="ChemicalGiant" target="MiningCorporation" id="6">
+        <attvalues>
+          <attvalue for="2" value="963010.619285204" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from MiningCorporation" />
+        </attvalues>
+      </edge>
+      <edge source="ChemicalGiant" target="RareEarthElements" id="7">
+        <attvalues>
+          <attvalue for="2" value="1303964.8248104877" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from RareEarthElements" />
+        </attvalues>
+      </edge>
+      <edge source="ChemicalGiant" target="DataAnalyticsCorp" id="8">
+        <attvalues>
+          <attvalue for="2" value="142293.94980130845" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="ChemicalGiant" target="VaccineManufacturer" id="9">
+        <attvalues>
+          <attvalue for="2" value="196631.26100343576" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Vaccine components" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="AutoElectronics" id="10">
+        <attvalues>
+          <attvalue for="2" value="393728.29501448665" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="AutoElectronics components" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="CarBodyworks" id="11">
+        <attvalues>
+          <attvalue for="2" value="464511.13518934115" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="CarBodyworks components" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="GlobalBank" id="12">
+        <attvalues>
+          <attvalue for="2" value="1514820.5162583156" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="RegionalBank" id="13">
+        <attvalues>
+          <attvalue for="2" value="1116334.0600628671" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with RegionalBank" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="InvestmentBank" id="14">
+        <attvalues>
+          <attvalue for="2" value="1176241.1765486496" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with InvestmentBank" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="ManagementConsulting" id="15">
+        <attvalues>
+          <attvalue for="2" value="113962.61498174745" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="TechConsulting" id="16">
+        <attvalues>
+          <attvalue for="2" value="111105.16575516341" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="FinancialAdvisory" id="17">
+        <attvalues>
+          <attvalue for="2" value="173949.28597739135" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="AutoManufacturing" target="StrategyFirm" id="18">
+        <attvalues>
+          <attvalue for="2" value="186191.77307991404" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="EngineWorks" target="AutoElectronics" id="19">
+        <attvalues>
+          <attvalue for="2" value="483729.7133921907" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="AutoElectronics components" />
+        </attvalues>
+      </edge>
+      <edge source="EngineWorks" target="CarBodyworks" id="20">
+        <attvalues>
+          <attvalue for="2" value="469196.1145816042" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="CarBodyworks components" />
+        </attvalues>
+      </edge>
+      <edge source="EngineWorks" target="DataAnalyticsCorp" id="21">
+        <attvalues>
+          <attvalue for="2" value="311368.6321303615" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="TireProduction" target="AutoElectronics" id="22">
+        <attvalues>
+          <attvalue for="2" value="348787.1713450277" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="AutoElectronics components" />
+        </attvalues>
+      </edge>
+      <edge source="TireProduction" target="CarBodyworks" id="23">
+        <attvalues>
+          <attvalue for="2" value="661889.0707888491" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="CarBodyworks components" />
+        </attvalues>
+      </edge>
+      <edge source="TireProduction" target="DataAnalyticsCorp" id="24">
+        <attvalues>
+          <attvalue for="2" value="113341.08783731265" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="AutoElectronics" target="ChemicalGiant" id="25">
+        <attvalues>
+          <attvalue for="2" value="143182.1332397776" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="ChemicalGiant materials" />
+        </attvalues>
+      </edge>
+      <edge source="AutoElectronics" target="PrecisionEquipment" id="26">
+        <attvalues>
+          <attvalue for="2" value="125548.07983965342" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="PrecisionEquipment materials" />
+        </attvalues>
+      </edge>
+      <edge source="CarBodyworks" target="ChemicalGiant" id="27">
+        <attvalues>
+          <attvalue for="2" value="223121.5767103912" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="ChemicalGiant materials" />
+        </attvalues>
+      </edge>
+      <edge source="CarBodyworks" target="PrecisionEquipment" id="28">
+        <attvalues>
+          <attvalue for="2" value="110983.85435550605" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="PrecisionEquipment materials" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="LifeInsurance" id="29">
+        <attvalues>
+          <attvalue for="2" value="659802.9955337816" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to LifeInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="PropertyInsurance" id="30">
+        <attvalues>
+          <attvalue for="2" value="608664.3441820134" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to PropertyInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="HealthInsurance" id="31">
+        <attvalues>
+          <attvalue for="2" value="91090.78577516317" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to HealthInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="DataAnalyticsCorp" id="32">
+        <attvalues>
+          <attvalue for="2" value="102730.39582280492" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="LegalServices" id="33">
+        <attvalues>
+          <attvalue for="2" value="110019.34498945544" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="AccountingFirm" id="34">
+        <attvalues>
+          <attvalue for="2" value="40927.004700229176" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="ArchitecturalServices" id="35">
+        <attvalues>
+          <attvalue for="2" value="124247.50226507244" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="EngineeringConsult" id="36">
+        <attvalues>
+          <attvalue for="2" value="97012.51604283621" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="AerospaceDefense" target="StreamingService" id="37">
+        <attvalues>
+          <attvalue for="2" value="319288.1299972552" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Satellite capacity" />
+        </attvalues>
+      </edge>
+      <edge source="AircraftParts" target="EnterpriseSoftware" id="38">
+        <attvalues>
+          <attvalue for="2" value="252648.41524274726" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="SpaceComponents" target="CloudSolutions" id="39">
+        <attvalues>
+          <attvalue for="2" value="231439.57712533727" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="RoboticsInc" target="MiningCorporation" id="40">
+        <attvalues>
+          <attvalue for="2" value="352442.8420142275" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from MiningCorporation" />
+        </attvalues>
+      </edge>
+      <edge source="RoboticsInc" target="RareEarthElements" id="41">
+        <attvalues>
+          <attvalue for="2" value="592400.1476197237" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from RareEarthElements" />
+        </attvalues>
+      </edge>
+      <edge source="ToolManufacturing" target="CybersecurityFirm" id="42">
+        <attvalues>
+          <attvalue for="2" value="166205.79710312706" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="PrecisionEquipment" target="MiningCorporation" id="43">
+        <attvalues>
+          <attvalue for="2" value="894197.7781073725" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from MiningCorporation" />
+        </attvalues>
+      </edge>
+      <edge source="PrecisionEquipment" target="RareEarthElements" id="44">
+        <attvalues>
+          <attvalue for="2" value="370952.9864021847" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials from RareEarthElements" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="AutoManufacturing" id="45">
+        <attvalues>
+          <attvalue for="2" value="1845363.2773602544" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Fleet vehicle purchase" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="GlobalBank" id="46">
+        <attvalues>
+          <attvalue for="2" value="1240300.113275151" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with GlobalBank" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="RegionalBank" id="47">
+        <attvalues>
+          <attvalue for="2" value="611469.9303709242" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with RegionalBank" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="InvestmentBank" id="48">
+        <attvalues>
+          <attvalue for="2" value="990323.2195243796" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with InvestmentBank" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="ManagementConsulting" id="49">
+        <attvalues>
+          <attvalue for="2" value="54903.24443184822" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="TechConsulting" id="50">
+        <attvalues>
+          <attvalue for="2" value="132740.645841358" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="FinancialAdvisory" id="51">
+        <attvalues>
+          <attvalue for="2" value="41536.54527734454" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="StrategyFirm" id="52">
+        <attvalues>
+          <attvalue for="2" value="75430.46185318351" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="GlobalLogistics" id="53">
+        <attvalues>
+          <attvalue for="2" value="348433.3101373045" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Supply chain logistics" />
+        </attvalues>
+      </edge>
+      <edge source="MegaRetailChain" target="FoodProcessing" id="54">
+        <attvalues>
+          <attvalue for="2" value="783446.4599344252" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Processed food products" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalSupermarket" target="FoodProcessing" id="55">
+        <attvalues>
+          <attvalue for="2" value="588319.4798985124" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Food products" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalSupermarket" target="BeverageCompany" id="56">
+        <attvalues>
+          <attvalue for="2" value="258110.0612357786" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Beverages" />
+        </attvalues>
+      </edge>
+      <edge source="DiscountStores" target="CybersecurityFirm" id="57">
+        <attvalues>
+          <attvalue for="2" value="224966.7460854855" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="OnlineMarketplace" target="CloudSolutions" id="58">
+        <attvalues>
+          <attvalue for="2" value="101086.23053681511" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Cloud infrastructure" />
+        </attvalues>
+      </edge>
+      <edge source="OnlineMarketplace" target="CybersecurityFirm" id="59">
+        <attvalues>
+          <attvalue for="2" value="300982.2188276431" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="EnterpriseSoftware" target="ArtificialIntelligence" id="60">
+        <attvalues>
+          <attvalue for="2" value="349320.0216137925" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="AI integration" />
+        </attvalues>
+      </edge>
+      <edge source="CloudSolutions" target="SemiconductorFab" id="61">
+        <attvalues>
+          <attvalue for="2" value="501994.1431558327" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Server processors" />
+        </attvalues>
+      </edge>
+      <edge source="CloudSolutions" target="HospitalChain" id="62">
+        <attvalues>
+          <attvalue for="2" value="257405.58254372474" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Hospital IT systems" />
+        </attvalues>
+      </edge>
+      <edge source="CybersecurityFirm" target="DataAnalyticsCorp" id="63">
+        <attvalues>
+          <attvalue for="2" value="369715.8076243013" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Threat intelligence" />
+        </attvalues>
+      </edge>
+      <edge source="DataAnalyticsCorp" target="CloudSolutions" id="64">
+        <attvalues>
+          <attvalue for="2" value="154928.0327162543" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Analytics platform" />
+        </attvalues>
+      </edge>
+      <edge source="SemiconductorFab" target="RareEarthElements" id="65">
+        <attvalues>
+          <attvalue for="2" value="411414.3912862579" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Rare earth minerals" />
+        </attvalues>
+      </edge>
+      <edge source="ArtificialIntelligence" target="ComputerVision" id="66">
+        <attvalues>
+          <attvalue for="2" value="245895.7264121983" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Vision algorithms" />
+        </attvalues>
+      </edge>
+      <edge source="ComputerVision" target="CybersecurityFirm" id="67">
+        <attvalues>
+          <attvalue for="2" value="63070.38017242308" />
+          <attvalue for="3" value="cross_sector" />
+          <attvalue for="4" value="Security analytics" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="ManagementConsulting" id="68">
+        <attvalues>
+          <attvalue for="2" value="131634.2922125872" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="TechConsulting" id="69">
+        <attvalues>
+          <attvalue for="2" value="151632.7426513852" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="FinancialAdvisory" id="70">
+        <attvalues>
+          <attvalue for="2" value="95258.53746780475" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="StrategyFirm" id="71">
+        <attvalues>
+          <attvalue for="2" value="26527.433774196936" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="LegalServices" id="72">
+        <attvalues>
+          <attvalue for="2" value="67379.20176773511" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="AccountingFirm" id="73">
+        <attvalues>
+          <attvalue for="2" value="82521.55680763986" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="ArchitecturalServices" id="74">
+        <attvalues>
+          <attvalue for="2" value="110603.44831310908" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="EngineeringConsult" id="75">
+        <attvalues>
+          <attvalue for="2" value="43541.734076522036" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalBank" target="RealEstateDeveloper" id="76">
+        <attvalues>
+          <attvalue for="2" value="1656119.0105608627" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Construction loans" />
+        </attvalues>
+      </edge>
+      <edge source="InvestmentBank" target="DataAnalyticsCorp" id="77">
+        <attvalues>
+          <attvalue for="2" value="313994.65190372994" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="LifeInsurance" target="CloudSolutions" id="78">
+        <attvalues>
+          <attvalue for="2" value="155512.13764869704" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="PropertyInsurance" target="DataAnalyticsCorp" id="79">
+        <attvalues>
+          <attvalue for="2" value="357891.21330786357" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="HedgeFund" target="EcommercePlatform" id="80">
+        <attvalues>
+          <attvalue for="2" value="527608.04577955" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from HedgeFund" />
+        </attvalues>
+      </edge>
+      <edge source="HedgeFund" target="ArtificialIntelligence" id="81">
+        <attvalues>
+          <attvalue for="2" value="463932.20530790824" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from HedgeFund" />
+        </attvalues>
+      </edge>
+      <edge source="HedgeFund" target="BiotechFirm" id="82">
+        <attvalues>
+          <attvalue for="2" value="348767.51111015194" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from HedgeFund" />
+        </attvalues>
+      </edge>
+      <edge source="PrivateEquity" target="BiotechFirm" id="83">
+        <attvalues>
+          <attvalue for="2" value="921674.9536682982" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from PrivateEquity" />
+        </attvalues>
+      </edge>
+      <edge source="PrivateEquity" target="CryptoCurrency" id="84">
+        <attvalues>
+          <attvalue for="2" value="384339.800227926" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from PrivateEquity" />
+        </attvalues>
+      </edge>
+      <edge source="PrivateEquity" target="InsurTech" id="85">
+        <attvalues>
+          <attvalue for="2" value="749512.397600101" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from PrivateEquity" />
+        </attvalues>
+      </edge>
+      <edge source="PrivateEquity" target="HealthTech" id="86">
+        <attvalues>
+          <attvalue for="2" value="407572.1382210826" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from PrivateEquity" />
+        </attvalues>
+      </edge>
+      <edge source="VentureCapital" target="InsurTech" id="87">
+        <attvalues>
+          <attvalue for="2" value="456446.35557304474" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from VentureCapital" />
+        </attvalues>
+      </edge>
+      <edge source="VentureCapital" target="HealthTech" id="88">
+        <attvalues>
+          <attvalue for="2" value="174205.5650578976" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Digital health investment" />
+        </attvalues>
+      </edge>
+      <edge source="VentureCapital" target="CleanEnergy" id="89">
+        <attvalues>
+          <attvalue for="2" value="753853.5535359989" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Investment from VentureCapital" />
+        </attvalues>
+      </edge>
+      <edge source="VentureCapital" target="CryptoCurrency" id="90">
+        <attvalues>
+          <attvalue for="2" value="346234.8563878237" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Blockchain investment" />
+        </attvalues>
+      </edge>
+      <edge source="AssetManagement" target="HedgeFund" id="91">
+        <attvalues>
+          <attvalue for="2" value="838337.5984585508" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Portfolio management" />
+        </attvalues>
+      </edge>
+      <edge source="PaymentProcessor" target="GlobalBank" id="92">
+        <attvalues>
+          <attvalue for="2" value="753750.5753050627" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Payment processing" />
+        </attvalues>
+      </edge>
+      <edge source="PaymentProcessor" target="EcommercePlatform" id="93">
+        <attvalues>
+          <attvalue for="2" value="296703.3505777122" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Payment gateway" />
+        </attvalues>
+      </edge>
+      <edge source="CryptoCurrency" target="InvestmentBank" id="94">
+        <attvalues>
+          <attvalue for="2" value="799684.744258377" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Crypto trading" />
+        </attvalues>
+      </edge>
+      <edge source="LendingPlatform" target="RegionalBank" id="95">
+        <attvalues>
+          <attvalue for="2" value="186444.5899126029" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Loan origination" />
+        </attvalues>
+      </edge>
+      <edge source="LendingPlatform" target="SmallBusiness1" id="96">
+        <attvalues>
+          <attvalue for="2" value="124546.33707356719" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Small business loans" />
+        </attvalues>
+      </edge>
+      <edge source="InsurTech" target="PropertyInsurance" id="97">
+        <attvalues>
+          <attvalue for="2" value="256379.86813290752" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Digital insurance platform" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="RefineryOperations" id="98">
+        <attvalues>
+          <attvalue for="2" value="808692.490783365" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Crude oil processing" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="GlobalBank" id="99">
+        <attvalues>
+          <attvalue for="2" value="1264925.88671954" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with GlobalBank" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="RegionalBank" id="100">
+        <attvalues>
+          <attvalue for="2" value="1028847.0026770545" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with RegionalBank" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="InvestmentBank" id="101">
+        <attvalues>
+          <attvalue for="2" value="179498.5082598852" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with InvestmentBank" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="LifeInsurance" id="102">
+        <attvalues>
+          <attvalue for="2" value="722646.6079447294" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to LifeInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="PropertyInsurance" id="103">
+        <attvalues>
+          <attvalue for="2" value="461269.293862474" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to PropertyInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="HealthInsurance" id="104">
+        <attvalues>
+          <attvalue for="2" value="377309.1910313112" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to HealthInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="ManagementConsulting" id="105">
+        <attvalues>
+          <attvalue for="2" value="89407.60171232448" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="TechConsulting" id="106">
+        <attvalues>
+          <attvalue for="2" value="118677.57395138447" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="FinancialAdvisory" id="107">
+        <attvalues>
+          <attvalue for="2" value="171115.34619635122" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="StrategyFirm" id="108">
+        <attvalues>
+          <attvalue for="2" value="119002.17816101376" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="LegalServices" id="109">
+        <attvalues>
+          <attvalue for="2" value="69133.0932113369" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="AccountingFirm" id="110">
+        <attvalues>
+          <attvalue for="2" value="83034.7380870683" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="ArchitecturalServices" id="111">
+        <attvalues>
+          <attvalue for="2" value="108552.46864245806" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="OilMajor" target="EngineeringConsult" id="112">
+        <attvalues>
+          <attvalue for="2" value="55793.09614198036" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="RefineryOperations" target="PetroleumServices" id="113">
+        <attvalues>
+          <attvalue for="2" value="208643.01525917058" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Refinery services" />
+        </attvalues>
+      </edge>
+      <edge source="SolarEnergy" target="SemiconductorFab" id="114">
+        <attvalues>
+          <attvalue for="2" value="391982.503407684" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Solar panel semiconductors" />
+        </attvalues>
+      </edge>
+      <edge source="WindPower" target="GlobalSteelCorp" id="115">
+        <attvalues>
+          <attvalue for="2" value="469048.3579273133" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Wind turbines" />
+        </attvalues>
+      </edge>
+      <edge source="WindPower" target="CloudSolutions" id="116">
+        <attvalues>
+          <attvalue for="2" value="283168.55447885627" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="WindPower" target="IndustrialMachinery" id="117">
+        <attvalues>
+          <attvalue for="2" value="765019.2922035384" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Wind turbine machinery" />
+        </attvalues>
+      </edge>
+      <edge source="HydroElectric" target="ConstructionMaterials" id="118">
+        <attvalues>
+          <attvalue for="2" value="502982.05355388945" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Dam construction materials" />
+        </attvalues>
+      </edge>
+      <edge source="GeothermalEnergy" target="EnterpriseSoftware" id="119">
+        <attvalues>
+          <attvalue for="2" value="111072.53213593816" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="GeothermalEnergy" target="CybersecurityFirm" id="120">
+        <attvalues>
+          <attvalue for="2" value="194312.74086204867" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="GeothermalEnergy" target="EngineeringConsult" id="121">
+        <attvalues>
+          <attvalue for="2" value="188384.59192038217" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Geothermal engineering" />
+        </attvalues>
+      </edge>
+      <edge source="ElectricUtility" target="OilMajor" id="122">
+        <attvalues>
+          <attvalue for="2" value="1196516.5798255063" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Petroleum products" />
+        </attvalues>
+      </edge>
+      <edge source="ElectricUtility" target="SolarEnergy" id="123">
+        <attvalues>
+          <attvalue for="2" value="929616.9199523787" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Solar power purchase" />
+        </attvalues>
+      </edge>
+      <edge source="ElectricUtility" target="EnterpriseSoftware" id="124">
+        <attvalues>
+          <attvalue for="2" value="273647.50340009824" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="ElectricUtility" target="EnergyTrading" id="125">
+        <attvalues>
+          <attvalue for="2" value="1105174.2072966397" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Renewable energy certificates" />
+        </attvalues>
+      </edge>
+      <edge source="PowerGeneration" target="NaturalGasDistributor" id="126">
+        <attvalues>
+          <attvalue for="2" value="1664512.1955616216" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Natural gas" />
+        </attvalues>
+      </edge>
+      <edge source="PowerGeneration" target="EnterpriseSoftware" id="127">
+        <attvalues>
+          <attvalue for="2" value="306467.08334650204" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="PowerGeneration" target="CloudSolutions" id="128">
+        <attvalues>
+          <attvalue for="2" value="159232.2238473372" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="EnergyTrading" target="ElectricUtility" id="129">
+        <attvalues>
+          <attvalue for="2" value="1073920.35377665" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Energy derivatives" />
+        </attvalues>
+      </edge>
+      <edge source="EnergyTrading" target="CryptoCurrency" id="130">
+        <attvalues>
+          <attvalue for="2" value="584870.735059865" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Energy token trading" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="GlobalBank" id="131">
+        <attvalues>
+          <attvalue for="2" value="1453480.0410796902" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with GlobalBank" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="RegionalBank" id="132">
+        <attvalues>
+          <attvalue for="2" value="1352900.427221266" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with RegionalBank" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="InvestmentBank" id="133">
+        <attvalues>
+          <attvalue for="2" value="955138.7978769648" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with InvestmentBank" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="LifeInsurance" id="134">
+        <attvalues>
+          <attvalue for="2" value="330981.5733156501" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to LifeInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="PropertyInsurance" id="135">
+        <attvalues>
+          <attvalue for="2" value="169603.2426726517" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to PropertyInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="HealthInsurance" id="136">
+        <attvalues>
+          <attvalue for="2" value="194950.96329324902" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to HealthInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="ManagementConsulting" id="137">
+        <attvalues>
+          <attvalue for="2" value="70091.85958373273" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="TechConsulting" id="138">
+        <attvalues>
+          <attvalue for="2" value="136440.6255872714" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="FinancialAdvisory" id="139">
+        <attvalues>
+          <attvalue for="2" value="131224.8611292906" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="StrategyFirm" id="140">
+        <attvalues>
+          <attvalue for="2" value="113702.44274303986" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="LegalServices" id="141">
+        <attvalues>
+          <attvalue for="2" value="102050.74861187194" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="AccountingFirm" id="142">
+        <attvalues>
+          <attvalue for="2" value="23637.408340646107" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="ArchitecturalServices" id="143">
+        <attvalues>
+          <attvalue for="2" value="101327.92456602873" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="EngineeringConsult" id="144">
+        <attvalues>
+          <attvalue for="2" value="76465.95968318338" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="BiotechFirm" id="145">
+        <attvalues>
+          <attvalue for="2" value="315352.5987180179" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="R&amp;D collaboration" />
+        </attvalues>
+      </edge>
+      <edge source="PharmaceuticalGiant" target="ClinicalLabs" id="146">
+        <attvalues>
+          <attvalue for="2" value="256032.246441087" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Clinical trials" />
+        </attvalues>
+      </edge>
+      <edge source="BiotechFirm" target="VentureCapital" id="147">
+        <attvalues>
+          <attvalue for="2" value="170175.33462921513" />
+          <attvalue for="3" value="startup_funding" />
+          <attvalue for="4" value="Biotech funding" />
+        </attvalues>
+      </edge>
+      <edge source="BiotechFirm" target="GenericDrugs" id="148">
+        <attvalues>
+          <attvalue for="2" value="26310.88569127846" />
+          <attvalue for="3" value="licensing_royalty" />
+          <attvalue for="4" value="Drug formulation licensing" />
+        </attvalues>
+      </edge>
+      <edge source="GenericDrugs" target="CybersecurityFirm" id="149">
+        <attvalues>
+          <attvalue for="2" value="270651.0925092795" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="GenericDrugs" target="ChemicalGiant" id="150">
+        <attvalues>
+          <attvalue for="2" value="724150.9091138587" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Active pharmaceutical ingredients" />
+        </attvalues>
+      </edge>
+      <edge source="VaccineManufacturer" target="HospitalChain" id="151">
+        <attvalues>
+          <attvalue for="2" value="737937.2966222799" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Vaccine distribution" />
+        </attvalues>
+      </edge>
+      <edge source="MedicalEquipment" target="CloudSolutions" id="152">
+        <attvalues>
+          <attvalue for="2" value="103270.88400174708" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="DiagnosticDevices" target="CloudSolutions" id="153">
+        <attvalues>
+          <attvalue for="2" value="83332.05846533003" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="SurgicalInstruments" target="EnterpriseSoftware" id="154">
+        <attvalues>
+          <attvalue for="2" value="132661.06564341308" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="HealthTech" target="CloudSolutions" id="155">
+        <attvalues>
+          <attvalue for="2" value="104494.31564287124" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Cloud infrastructure" />
+        </attvalues>
+      </edge>
+      <edge source="HospitalChain" target="EnterpriseSoftware" id="156">
+        <attvalues>
+          <attvalue for="2" value="127232.1803089829" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="HospitalChain" target="PharmaceuticalGiant" id="157">
+        <attvalues>
+          <attvalue for="2" value="353657.75901291944" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Pharmaceutical procurement" />
+        </attvalues>
+      </edge>
+      <edge source="ClinicalLabs" target="BiotechFirm" id="158">
+        <attvalues>
+          <attvalue for="2" value="382705.22462490405" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Biotech research" />
+        </attvalues>
+      </edge>
+      <edge source="TelemedicineCorp" target="CybersecurityFirm" id="159">
+        <attvalues>
+          <attvalue for="2" value="280710.4607894558" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="GlobalBank" id="160">
+        <attvalues>
+          <attvalue for="2" value="1488766.2036914392" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with GlobalBank" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="RegionalBank" id="161">
+        <attvalues>
+          <attvalue for="2" value="643901.5083404633" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with RegionalBank" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="InvestmentBank" id="162">
+        <attvalues>
+          <attvalue for="2" value="1236812.9035419596" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Corporate banking with InvestmentBank" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="LifeInsurance" id="163">
+        <attvalues>
+          <attvalue for="2" value="154739.126621746" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to LifeInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="PropertyInsurance" id="164">
+        <attvalues>
+          <attvalue for="2" value="206741.4327588455" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to PropertyInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="HealthInsurance" id="165">
+        <attvalues>
+          <attvalue for="2" value="771354.2589618822" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to HealthInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="ManagementConsulting" id="166">
+        <attvalues>
+          <attvalue for="2" value="103721.79700316722" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from ManagementConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="TechConsulting" id="167">
+        <attvalues>
+          <attvalue for="2" value="74023.93456671768" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from TechConsulting" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="FinancialAdvisory" id="168">
+        <attvalues>
+          <attvalue for="2" value="187038.74327564426" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from FinancialAdvisory" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="StrategyFirm" id="169">
+        <attvalues>
+          <attvalue for="2" value="192897.36878972696" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Strategic consulting from StrategyFirm" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="LegalServices" id="170">
+        <attvalues>
+          <attvalue for="2" value="33369.01060990509" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="AccountingFirm" id="171">
+        <attvalues>
+          <attvalue for="2" value="116736.0370288786" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="ArchitecturalServices" id="172">
+        <attvalues>
+          <attvalue for="2" value="139177.97275123146" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="EngineeringConsult" id="173">
+        <attvalues>
+          <attvalue for="2" value="87057.86863317723" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="TelecomGiant" target="SatelliteComm" id="174">
+        <attvalues>
+          <attvalue for="2" value="396217.8783278415" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Satellite services" />
+        </attvalues>
+      </edge>
+      <edge source="InternetProvider" target="CybersecurityFirm" id="175">
+        <attvalues>
+          <attvalue for="2" value="125270.42702304598" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="SatelliteComm" target="AerospaceDefense" id="176">
+        <attvalues>
+          <attvalue for="2" value="711034.0910646997" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Satellite manufacturing" />
+        </attvalues>
+      </edge>
+      <edge source="MediaConglomerate" target="TelecomGiant" id="177">
+        <attvalues>
+          <attvalue for="2" value="157777.3377210285" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="Broadcasting infrastructure" />
+        </attvalues>
+      </edge>
+      <edge source="StreamingService" target="CybersecurityFirm" id="178">
+        <attvalues>
+          <attvalue for="2" value="252355.45291477515" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="StreamingService" target="ContentProduction" id="179">
+        <attvalues>
+          <attvalue for="2" value="961592.5966086172" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Original content" />
+        </attvalues>
+      </edge>
+      <edge source="ContentProduction" target="MediaConglomerate" id="180">
+        <attvalues>
+          <attvalue for="2" value="77964.7510432967" />
+          <attvalue for="3" value="licensing_royalty" />
+          <attvalue for="4" value="Content licensing" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalLogistics" target="AutoManufacturing" id="181">
+        <attvalues>
+          <attvalue for="2" value="2356857.060169983" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Fleet vehicles" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalLogistics" target="LifeInsurance" id="182">
+        <attvalues>
+          <attvalue for="2" value="472727.9525258899" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to LifeInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalLogistics" target="PropertyInsurance" id="183">
+        <attvalues>
+          <attvalue for="2" value="91218.22873919242" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to PropertyInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="GlobalLogistics" target="HealthInsurance" id="184">
+        <attvalues>
+          <attvalue for="2" value="716157.1801465912" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Insurance premiums to HealthInsurance" />
+        </attvalues>
+      </edge>
+      <edge source="FreightForwarder" target="ContainerShipping" id="185">
+        <attvalues>
+          <attvalue for="2" value="136358.03772460425" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Ocean freight" />
+        </attvalues>
+      </edge>
+      <edge source="SupplyChainMgmt" target="FreightForwarder" id="186">
+        <attvalues>
+          <attvalue for="2" value="258169.17529123958" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Supply chain optimization" />
+        </attvalues>
+      </edge>
+      <edge source="LastMileDelivery" target="EcommercePlatform" id="187">
+        <attvalues>
+          <attvalue for="2" value="333562.6152423824" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Delivery services" />
+        </attvalues>
+      </edge>
+      <edge source="MajorAirline" target="AircraftLeasing" id="188">
+        <attvalues>
+          <attvalue for="2" value="1883340.333329926" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Aircraft leasing" />
+        </attvalues>
+      </edge>
+      <edge source="CargoAirline" target="GlobalLogistics" id="189">
+        <attvalues>
+          <attvalue for="2" value="191238.13602271085" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Air cargo services" />
+        </attvalues>
+      </edge>
+      <edge source="AircraftLeasing" target="AerospaceDefense" id="190">
+        <attvalues>
+          <attvalue for="2" value="650837.9013034321" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Aircraft manufacturing" />
+        </attvalues>
+      </edge>
+      <edge source="ContainerShipping" target="PortOperations" id="191">
+        <attvalues>
+          <attvalue for="2" value="242345.71430951444" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Port services" />
+        </attvalues>
+      </edge>
+      <edge source="BulkCarrier" target="DataAnalyticsCorp" id="192">
+        <attvalues>
+          <attvalue for="2" value="289471.3075396238" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="PortOperations" target="GlobalLogistics" id="193">
+        <attvalues>
+          <attvalue for="2" value="264533.2438099556" />
+          <attvalue for="3" value="logistics_services" />
+          <attvalue for="4" value="Port logistics" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="CloudSolutions" id="194">
+        <attvalues>
+          <attvalue for="2" value="225109.2846940989" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="LegalServices" id="195">
+        <attvalues>
+          <attvalue for="2" value="55958.47164019762" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from LegalServices" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="AccountingFirm" id="196">
+        <attvalues>
+          <attvalue for="2" value="104975.42446777836" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from AccountingFirm" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="ArchitecturalServices" id="197">
+        <attvalues>
+          <attvalue for="2" value="90441.63686520068" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from ArchitecturalServices" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="EngineeringConsult" id="198">
+        <attvalues>
+          <attvalue for="2" value="120564.62864565359" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Professional services from EngineeringConsult" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="ConstructionMaterials" id="199">
+        <attvalues>
+          <attvalue for="2" value="1042783.3621316074" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Building materials" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateDeveloper" target="CommercialBuilder" id="200">
+        <attvalues>
+          <attvalue for="2" value="862304.9331245666" />
+          <attvalue for="3" value="mega_contract" />
+          <attvalue for="4" value="Construction services" />
+        </attvalues>
+      </edge>
+      <edge source="CommercialBuilder" target="ConstructionMaterials" id="201">
+        <attvalues>
+          <attvalue for="2" value="806356.1539907779" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Building materials" />
+        </attvalues>
+      </edge>
+      <edge source="CommercialBuilder" target="ArchitecturalServices" id="202">
+        <attvalues>
+          <attvalue for="2" value="105346.71569749499" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Design services" />
+        </attvalues>
+      </edge>
+      <edge source="InfrastructureFirm" target="CloudSolutions" id="203">
+        <attvalues>
+          <attvalue for="2" value="349323.62530716887" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+      <edge source="RealEstateInvestment" target="PropertyManagement" id="204">
+        <attvalues>
+          <attvalue for="2" value="246474.96390336633" />
+          <attvalue for="3" value="financial_services" />
+          <attvalue for="4" value="Investment management" />
+        </attvalues>
+      </edge>
+      <edge source="PropertyManagement" target="RealEstateDeveloper" id="205">
+        <attvalues>
+          <attvalue for="2" value="81223.4367044628" />
+          <attvalue for="3" value="consulting_services" />
+          <attvalue for="4" value="Property management" />
+        </attvalues>
+      </edge>
+      <edge source="AgricultureCorp" target="CybersecurityFirm" id="206">
+        <attvalues>
+          <attvalue for="2" value="117082.50622668593" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="AgricultureCorp" target="ChemicalGiant" id="207">
+        <attvalues>
+          <attvalue for="2" value="270905.14558838017" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Agricultural chemicals" />
+        </attvalues>
+      </edge>
+      <edge source="FoodProcessing" target="AgricultureCorp" id="208">
+        <attvalues>
+          <attvalue for="2" value="301115.3187837398" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Agricultural products" />
+        </attvalues>
+      </edge>
+      <edge source="BeverageCompany" target="CybersecurityFirm" id="209">
+        <attvalues>
+          <attvalue for="2" value="80722.62818039244" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CybersecurityFirm" />
+        </attvalues>
+      </edge>
+      <edge source="BeverageCompany" target="AgricultureCorp" id="210">
+        <attvalues>
+          <attvalue for="2" value="438182.97322921" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Raw beverage ingredients" />
+        </attvalues>
+      </edge>
+      <edge source="MeatPacking" target="LivestockRanch" id="211">
+        <attvalues>
+          <attvalue for="2" value="389390.3360605375" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Livestock" />
+        </attvalues>
+      </edge>
+      <edge source="DairyProcessing" target="EnterpriseSoftware" id="212">
+        <attvalues>
+          <attvalue for="2" value="341219.54138198664" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="DairyProcessing" target="LivestockRanch" id="213">
+        <attvalues>
+          <attvalue for="2" value="684172.8439927864" />
+          <attvalue for="3" value="supply_chain_tier1" />
+          <attvalue for="4" value="Dairy products" />
+        </attvalues>
+      </edge>
+      <edge source="MiningCorporation" target="GlobalSteelCorp" id="214">
+        <attvalues>
+          <attvalue for="2" value="1183978.1619966002" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Iron ore" />
+        </attvalues>
+      </edge>
+      <edge source="CementCompany" target="DataAnalyticsCorp" id="215">
+        <attvalues>
+          <attvalue for="2" value="223858.90252290946" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="CementCompany" target="MiningCorporation" id="216">
+        <attvalues>
+          <attvalue for="2" value="1119221.421123713" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Limestone and aggregates" />
+        </attvalues>
+      </edge>
+      <edge source="ConstructionMaterials" target="MiningCorporation" id="217">
+        <attvalues>
+          <attvalue for="2" value="554746.6465045916" />
+          <attvalue for="3" value="commodity_trading" />
+          <attvalue for="4" value="Raw materials" />
+        </attvalues>
+      </edge>
+      <edge source="ConstructionMaterials" target="CementCompany" id="218">
+        <attvalues>
+          <attvalue for="2" value="275803.0806366525" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Cement products" />
+        </attvalues>
+      </edge>
+      <edge source="ConstructionMaterials" target="LumberMill" id="219">
+        <attvalues>
+          <attvalue for="2" value="247282.783514564" />
+          <attvalue for="3" value="supply_chain_tier2" />
+          <attvalue for="4" value="Lumber products" />
+        </attvalues>
+      </edge>
+      <edge source="FinancialAdvisory" target="DataAnalyticsCorp" id="220">
+        <attvalues>
+          <attvalue for="2" value="71442.22134805846" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="AccountingFirm" target="EnterpriseSoftware" id="221">
+        <attvalues>
+          <attvalue for="2" value="129901.36703813847" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="ArchitecturalServices" target="DataAnalyticsCorp" id="222">
+        <attvalues>
+          <attvalue for="2" value="291835.95260347973" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from DataAnalyticsCorp" />
+        </attvalues>
+      </edge>
+      <edge source="EngineeringConsult" target="EnterpriseSoftware" id="223">
+        <attvalues>
+          <attvalue for="2" value="68922.79432362124" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="BusinessProcessOutsourcing" target="EnterpriseSoftware" id="224">
+        <attvalues>
+          <attvalue for="2" value="133559.55932601955" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from EnterpriseSoftware" />
+        </attvalues>
+      </edge>
+      <edge source="DataEntry" target="CloudSolutions" id="225">
+        <attvalues>
+          <attvalue for="2" value="194357.04200667655" />
+          <attvalue for="3" value="technology_services" />
+          <attvalue for="4" value="IT services from CloudSolutions" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
